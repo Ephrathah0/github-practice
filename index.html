@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            ol{
+                list-style: none;
+                display: flex;
+                flex: 1;
+            }
+            li{
+                flex: 1;
+            }
+            nav{
+                
+            }
+        </style>
+        <body>
+           <nav>
+            <ol>
+                <li>1</li>
+                 <li>2</li>
+                  <li>3</li>
+                  <li>4</li>
+            </ol>
+           </nav>
+           <div id="con">
+            <h1>Hello</h1>
+            <h4>Welcome</h4>
+        </div>
+            <script>
+                Vue.createApp({
+                    data(){
+                        pageTitle:"Hello"
+                    }
+                }).mount('#con')
+            </script>
+
+
+
+        </body>
+    </head>
+</html>
